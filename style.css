@@ -20,6 +20,9 @@ body {
 
 .header-image {
     color: #f9faf8;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
     font-size: 24px;
     align-self: center;
     font-weight: bold;
@@ -31,12 +34,11 @@ body {
 
 .page-welcome {
     display: flex;
-    justify-content: space-between;
     height: 300px;
     background-color: #1f2937;
     flex-shrink: 0;
     overflow: clip;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .welcome-left {
@@ -46,11 +48,17 @@ body {
 }
 
 .welcome-right {
-    flex: 1 1 70%;
+    flex: 0 1 0;
+    margin-left: 80px;
+    border-radius: 45px;
+    width: 500px;
+    height: 300px;
     align-self: center;
-    justify-self: center;
     text-align: center;
 }
+
+
+
 
 .welcome-button {
     border: 0;
@@ -130,11 +138,12 @@ body {
 
 .sign-up-container p {
     color: #2e1d2f;
+    width: 200px;
 }
 
 .sign-up-text {
     display: flex;
-    width: 1px;
+    width: 200px;
     flex: 1;
 }
 
