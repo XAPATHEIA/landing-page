@@ -1,10 +1,22 @@
 /* stylesheet */
 
+body {
+    height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
     padding: 0px 150px 0px 150px;
+    flex-shrink: 0;
+}
+
+.page-welcome {
+    display: flex;
 }
 
 /* TODO: make sure header shrinks appropriately */
@@ -13,6 +25,7 @@
     color: #f9faf8;
     font-size: 24px;
     align-self: center;
+    font-weight: bold;
 }
 
 .right-header-links {
