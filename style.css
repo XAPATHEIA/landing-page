@@ -32,7 +32,7 @@ body {
 .welcome-left {
     display: flex;
     flex-direction: column;
-    flex: 1 1 30%;
+    flex: 0 1 30%;
 }
 
 .welcome-right {
@@ -84,6 +84,10 @@ h1 {
 p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+h1, p {
+    min-width: 275px;
 }
 
 button, button:hover {
